@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="84426aa6c3df12501ad65375e4013164" extends="task" label="Enrollment" max_length="40" name="x_1593177_training_enrollment" type="collection">
+        <element label="Agenda" max_length="32" name="agenda" reference="x_1593177_training_agenda" type="reference"/>
+    </element>
+</database>
