@@ -4,7 +4,7 @@
         <element label="Vacancies" max_length="40" name="vacancies" type="integer"/>
         <element display="true" label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Training" max_length="32" name="training" reference="x_1593177_training_training" type="reference"/>
-        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="roles=x_1593177_training.instructor^EQ" reference_qual_condition="roles=x_1593177_training.instructor^EQ" type="reference"/>
         <index name="index">
             <element name="instructor"/>
         </index>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Enrollment">14cafa32c31792501ad65375e40131cc</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 12:15:25</sys_created_on>
+        <sys_id>6de6430fc3d7d2501ad65375e4013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment.Training System Users</sys_name>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_6de6430fc3d7d2501ad65375e4013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 12:15:25</sys_updated_on>
+        <user_criteria display_value="Training System Users">9e17870fc3d7d2501ad65375e40131e2</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

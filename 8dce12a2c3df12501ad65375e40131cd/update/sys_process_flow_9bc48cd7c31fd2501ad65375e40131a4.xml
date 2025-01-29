@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1593177_training_enrollment">state=3^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Approved</label>
+        <name>Approved</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 16:44:08</sys_created_on>
+        <sys_id>9bc48cd7c31fd2501ad65375e40131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved</sys_name>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name>sys_process_flow_9bc48cd7c31fd2501ad65375e40131a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 16:44:08</sys_updated_on>
+        <table>x_1593177_training_enrollment</table>
+    </sys_process_flow>
+</record_update>
