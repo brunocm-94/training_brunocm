@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Enrollment">14cafa32c31792501ad65375e40131cc</catalog_item>
+        <catalog_variable>IO:4ada64e3c39312101ad65375e4013120</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 14:44:22</sys_created_on>
+        <sys_id>a6f2f0efc39312101ad65375e401313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remaining_vacancies</sys_name>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a6f2f0efc39312101ad65375e401313d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 14:44:22</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show fields after selecting an Agenda">7672386fc39312101ad65375e4013165</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>remaining_vacancies</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6f2f0efc39312101ad65375e401313d"/>
+</record_update>

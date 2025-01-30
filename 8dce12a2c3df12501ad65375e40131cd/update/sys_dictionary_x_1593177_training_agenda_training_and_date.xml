@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="date" table="x_1593177_training_agenda">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="training_and_date" table="x_1593177_training_agenda">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+	return current.training.name.toString() + " - " + current.date.toString();
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Date</column_label>
+        <column_label>Training and Date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -16,20 +19,20 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>date</element>
+        <element>training_and_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>400</max_length>
         <name>x_1593177_training_agenda</name>
         <next_element/>
         <primary>false</primary>
@@ -46,21 +49,21 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-27 20:15:37</sys_created_on>
-        <sys_name>Date</sys_name>
+        <sys_created_on>2025-01-29 20:27:53</sys_created_on>
+        <sys_name>Training and Date</sys_name>
         <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
-        <sys_update_name>sys_dictionary_x_1593177_training_agenda_date</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1593177_training_agenda_training_and_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 20:59:34</sys_updated_on>
+        <sys_updated_on>2025-01-30 14:34:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1593177_training_agenda" version="2" view="">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1593177_training_agenda" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>training_and_date</element>
-            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">38cb9563c39712101ad65375e401317d</list_id>
+            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="e88f8360dc1212104f34465061b06a3f">10cb9563c39712101ad65375e4013135</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-30 17:42:34</sys_created_on>
-            <sys_id>74cb9563c39712101ad65375e401317e</sys_id>
+            <sys_created_on>2025-01-30 17:42:32</sys_created_on>
+            <sys_id>5ccb9563c39712101ad65375e4013135</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-30 17:42:34</sys_updated_on>
+            <sys_updated_on>2025-01-30 17:42:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>instructor</element>
-            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">38cb9563c39712101ad65375e401317d</list_id>
+            <element>remaining_vacancies</element>
+            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="e88f8360dc1212104f34465061b06a3f">10cb9563c39712101ad65375e4013135</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-30 17:42:34</sys_created_on>
-            <sys_id>78cb9563c39712101ad65375e401317e</sys_id>
+            <sys_created_on>2025-01-30 17:42:32</sys_created_on>
+            <sys_id>50cb9563c39712101ad65375e4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-30 17:42:34</sys_updated_on>
+            <sys_updated_on>2025-01-30 17:42:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>remaining_vacancies</element>
-            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">38cb9563c39712101ad65375e401317d</list_id>
+            <element>instructor</element>
+            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="e88f8360dc1212104f34465061b06a3f">10cb9563c39712101ad65375e4013135</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-30 17:42:34</sys_created_on>
-            <sys_id>7ccb9563c39712101ad65375e401317e</sys_id>
+            <sys_created_on>2025-01-30 17:42:32</sys_created_on>
+            <sys_id>54cb9563c39712101ad65375e4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-30 17:42:34</sys_updated_on>
+            <sys_updated_on>2025-01-30 17:42:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">38cb9563c39712101ad65375e401317d</list_id>
+            <list_id display_value="x_1593177_training_agenda" element="NULL" name="x_1593177_training_agenda" parent="NULL" relationship="NULL" sys_domain="global" view="e88f8360dc1212104f34465061b06a3f">10cb9563c39712101ad65375e4013135</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-30 17:42:34</sys_created_on>
-            <sys_id>70cb9563c39712101ad65375e401317f</sys_id>
+            <sys_created_on>2025-01-30 17:42:32</sys_created_on>
+            <sys_id>58cb9563c39712101ad65375e4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-30 17:42:34</sys_updated_on>
+            <sys_updated_on>2025-01-30 17:42:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,20 +72,20 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-30 17:42:34</sys_created_on>
+            <sys_created_on>2025-01-30 17:42:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>38cb9563c39712101ad65375e401317d</sys_id>
+            <sys_id>10cb9563c39712101ad65375e4013135</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593177_training_agenda</sys_name>
             <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
             <sys_policy/>
             <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
-            <sys_update_name>sys_ui_list_x_1593177_training_agenda_null</sys_update_name>
+            <sys_update_name>sys_ui_list_x_1593177_training_agenda_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-30 17:42:34</sys_updated_on>
+            <sys_updated_on>2025-01-30 17:42:32</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="Reference List" name="sys_ref_list">e88f8360dc1212104f34465061b06a3f</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

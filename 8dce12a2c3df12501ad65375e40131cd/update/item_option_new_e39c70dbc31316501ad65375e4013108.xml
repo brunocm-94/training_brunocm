@@ -49,7 +49,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Select the training</question_text>
+        <question_text>Select the Training</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,16 +77,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 15:10:35</sys_created_on>
-        <sys_id>9a0f274fc39bd2501ad65375e4013125</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Select the training</sys_name>
+        <sys_created_on>2025-01-29 20:49:44</sys_created_on>
+        <sys_id>e39c70dbc31316501ad65375e4013108</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Select the Training</sys_name>
         <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
-        <sys_update_name>item_option_new_9a0f274fc39bd2501ad65375e4013125</sys_update_name>
+        <sys_update_name>item_option_new_e39c70dbc31316501ad65375e4013108</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 15:10:35</sys_updated_on>
+        <sys_updated_on>2025-01-30 14:02:20</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=9a0f274fc39bd2501ad65375e4013125"/>
-    <fx_price action="delete_multiple" query="id=9a0f274fc39bd2501ad65375e4013125"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e39c70dbc31316501ad65375e4013108"/>
+    <fx_price action="delete_multiple" query="id=e39c70dbc31316501ad65375e4013108"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>9a0f274fc39bd2501ad65375e4013125</id>
+        <id>e39c70dbc31316501ad65375e4013108</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 15:10:35</sys_created_on>
-        <sys_id>996fe38fc39bd2501ad65375e4013164</sys_id>
+        <sys_created_on>2025-01-29 20:49:44</sys_created_on>
+        <sys_id>190df01fc31316501ad65375e40131b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 15:10:35</sys_updated_on>
+        <sys_updated_on>2025-01-29 20:49:44</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>9a0f274fc39bd2501ad65375e4013125</id>
+        <id>e39c70dbc31316501ad65375e4013108</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 15:10:35</sys_created_on>
-        <sys_id>d96fe38fc39bd2501ad65375e4013163</sys_id>
+        <sys_created_on>2025-01-29 20:49:44</sys_created_on>
+        <sys_id>590df01fc31316501ad65375e40131b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 15:10:35</sys_updated_on>
+        <sys_updated_on>2025-01-29 20:49:44</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

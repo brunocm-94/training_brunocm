@@ -2,7 +2,8 @@
     <element db_object_id="b3806626c3df12501ad65375e40131b1" label="Agenda" max_length="40" name="x_1593177_training_agenda" type="collection">
         <element label="Remaining Vacancies" max_length="40" name="remaining_vacancies" type="integer"/>
         <element label="Vacancies" max_length="40" name="vacancies" type="integer"/>
-        <element display="true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;return current.training.name.toString() + &quot; - &quot; + current.date.toString();&#13;&#10;&#13;&#10;})(current);" display="true" label="Training and Date" max_length="400" name="training_and_date" type="string" virtual="true"/>
         <element label="Training" max_length="32" name="training" reference="x_1593177_training_training" type="reference"/>
         <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="roles=x_1593177_training.instructor^EQ" reference_qual_condition="roles=x_1593177_training.instructor^EQ" type="reference"/>
         <index name="index">

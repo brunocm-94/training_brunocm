@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=814000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_agenda_vacancies_on_delete_enrollment</internal_name>
+        <label_cache>[{"name":"subflow.agenda","label":"Input➛Agenda","reference":"x_1593177_training_agenda","reference_display":"Agenda","type":"reference","base_type":"reference","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["record"],"fff1d778-dc15-4164-b91b-7426495acee4":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e7c70371-2608-47b1-ba87-6307263f219d","uiTypeLabel":"Reference"}},{"name":"subflow.agenda.remaining_vacancies","label":"Input➛Agenda➛Remaining Vacancies","reference":"","reference_display":"Remaining Vacancies","type":"integer","base_type":"integer","parent_table_name":"x_1593177_training_agenda","column_name":"remaining_vacancies","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["remaining_vacancies"]}}]</label_cache>
+        <master_snapshot>912da5e7c3d712101ad65375e401312c</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Update Agenda Vacancies</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:44:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba0a69a3c3d712101ad65375e4013163</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update Agenda Vacancies</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name>sys_hub_flow_ba0a69a3c3d712101ad65375e4013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_variable_value action="DELETE" query="document_key=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN7a0a69a3c3d712101ad65375e4013164"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>ba0a69a3c3d712101ad65375e4013163</id>
+        <name>Update Agenda Vacancies on Delete Enrollment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:44:56</sys_created_on>
+        <sys_id>7a0a69a3c3d712101ad65375e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:44:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=7a0a69a3c3d712101ad65375e4013164"/>
+    <sys_hub_flow_input action="DELETE" query="model=ba0a69a3c3d712101ad65375e4013163^sys_idNOT INd1eb2127c3d712101ad65375e4013138"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e7c70371-2608-47b1-ba87-6307263f219d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1593177_training_agenda</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>agenda</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Agenda</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Agenda Vacancies">ba0a69a3c3d712101ad65375e4013163</model>
+        <model_id>ba0a69a3c3d712101ad65375e4013163</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1593177_training_agenda">x_1593177_training_agenda</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:02</sys_created_on>
+        <sys_id>d1eb2127c3d712101ad65375e4013138</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:53:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=d1eb2127c3d712101ad65375e4013138"/>
+    <sys_hub_flow_output action="DELETE" query="model=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN1deb6d67c3d712101ad65375e401319c,91eb6d67c3d712101ad65375e401319b"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Agenda Vacancies">ba0a69a3c3d712101ad65375e4013163</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:02</sys_created_on>
+        <sys_id>1deb6d67c3d712101ad65375e401319c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:53:02</sys_updated_on>
+        <ui_id>06a36bb7-971e-402b-83c6-528add9fa6db</ui_id>
+        <values>H4sIAAAAAAAA/+1Wy27bMBD8FUNnR5CsPJ1TgCBAD02AtMglDQiKXDlEKVLlw4lr6N+7lCjFedQ1ggBFgfrG5e7OzO6A1u06ETyZJ/vAs/wkP2RFXhSzLJsd7+flYVHmM15QgDyZJorWgJkGmDYcz0sqfQis19aXldQPKV2A4rRt8ZIL20i6uok5GGH3QnIDKpnf3k2Thhps58Ak8/WLK7dqgEhagsTCc818DcpNPp1jj12pDtXXA9eX3AMGnnnsTkQI4lXgk2fTBB4dSgGEq6i0ME1qisqcNqtk7ozHgAHKr5RcjRn3QrleaU0frfiJ/fezkFcBSmNxCuORxAkNw9GCwVXjhFZ9xNFSDpPT0tfqspcQZgsV9dJtzNZb7AdNoBxI9AyrL/f64XrAuxCqUxfZSs2oHE/UOSNK78CGdYCEbig1bRqhFqQxeim6YqRSpwuJhzQsHDGtWKiUssA7xQHR9ALj5134hhoRRHzGNljcduLJDx9wexmRMOk0d4JJtyhMtcyIxp1h4yVEmu00erU82GYAdvK0742eT359JPnBSZEfHRFnqFBBYW/c17Y9G+LvM+/XAD+57OF3pf6s+DdSon2fxaJ7Dz7Mvcd/yb2R0T9m3z+ZNpttfbU2Nt351G4Y1kAdfbqkjComwH7zWVbwiu/1kMBfe3fHqnc6G2rEcjDp0aY7axwaXAiQ3L4herB2BCDLCDA+zh/m7/ww637/3+gPeaN7QX0sMHzDfyG8rQhrnDdqUnHS8YzfFUSoxjsbPy/Ssd1kb8wkOSFS6+/EN6T/k7cp0165UxRh6RL4uIm2be9+AZL60e/2CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Agenda Vacancies">ba0a69a3c3d712101ad65375e4013163</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:02</sys_created_on>
+        <sys_id>91eb6d67c3d712101ad65375e401319b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:26</sys_updated_on>
+        <ui_id>fff1d778-dc15-4164-b91b-7426495acee4</ui_id>
+        <values>H4sIAAAAAAAA/9VXS0/jMBD+K1XOUZU0fUBvK1gkDoAEiAsLlpM4rbWunbWdPqj633ccJ2loA7Td7i4cPQ/PNzPfTJzHpUNjZ+icJF3Pw37vZOB5QeB5/X4QYT8Mg34UemE3dFyH4wkBS41DRuA4xSwz5znye6eBPxggLTHllI8Q4VIwNiFcg11MVcrw4qEw/17XRWPKYkm4M3x8cp0USwihiXSGyw2VXqQEMRwSBlfcGwStawPH3Rn9K+ftbEyA8oi4vVrI2GDxXIfMNeExgVAJZoq4zgTzGGshF5VEEhzfcLYWjCmkOHQcYzxX9AWuP/GMXUIgrYhYXXVERZ2sOBoLGpGbVFPBrcQCtUrBsgm/tgmYCpMEZ0yXFQZJpuA+khrMBkSBKLkbi9ltGfCC8jy9QslEhFl1wlpLGmaaKNMLwohpGJrgNDX9TaWY0twZsEzaIwaHdsLEDIIqOuJtHBngbSgRbl+A/DwXP2BJTRZXcA04AyDKoNvIFl2JTOZVmaKIZSpXSMyVvctZ5bVCvzKD0mZd5IdsicBARZKm+hs4TEmRysrdieA9b02JSPCYmpiqxnI8gmD4RwbO8XKpstCk27bS1epZaazJ5XXHDbYZv4/rYQNxVke8a7aNzk0lKEbjlawYDf9oowFw/9NwaJl9vtn4iO024Q8oHw3eJUFv3W8lpEa2cjXOb1P5YIZeUMLiVyt7B3Cl840hWytcvIW3IGhiYmzs7s6X392fkp4AKEa23pQzyvNPJwA9Dm+995fX6QYP8vavWZvLsIoaFnFLi9bL4Vs272vJ3x1Alo53gKh1b1E2AC/3a3l9Qd3gaNQNOvtRF4jzuKzQV1VrKHD5QjKtK+1fjD3etAd21Rz81VNF/bPDYvr7xuyYmBuzGew1nHVmWc35GwQ78vvrjWFz/+Z0j8G1iIfssKIZjUdEr6OXVrHQM8x+NukLdlUzlKf3x2+57ruz1/fXcwYzgCRR0Kr6Y86Hx8b2evDbVnzYdrjkmozy4u0KsfS8wvPWbYWxEXixImgVo+B094jvr3/xeSsL3zg9Zf2/xM/LoRR++g1JTiGGcQ8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN91eb6d67c3d712101ad65375e401319f,d9eb6d67c3d712101ad65375e401319e"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>ba0a69a3c3d712101ad65375e4013163</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>36e9d0d5-db55-4d05-beae-afa9c8c6f108</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:03</sys_created_on>
+        <sys_id>91eb6d67c3d712101ad65375e401319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:53:03</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>0deb44be-37ea-4343-993a-c90d6a80331c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>ba0a69a3c3d712101ad65375e4013163</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.agenda.remaining_vacancies}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:03</sys_created_on>
+        <sys_id>d9eb6d67c3d712101ad65375e401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:53:03</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>36e9d0d5-db55-4d05-beae-afa9c8c6f108</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="DELETE" query="model=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN99eb2127c3d712101ad65375e401313c"/>
+    <sys_documentation action="DELETE">
+        <element>agenda</element>
+        <help/>
+        <hint/>
+        <label>Agenda</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:02</sys_created_on>
+        <sys_id>99eb2127c3d712101ad65375e401313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:53:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>update_agenda_vacancies</internal_name>
+        <label_cache>[{"name":"subflow.agenda","label":"Input➛Agenda","reference":"x_1593177_training_agenda","reference_display":"Agenda","type":"reference","base_type":"reference","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["record"],"fff1d778-dc15-4164-b91b-7426495acee4":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e7c70371-2608-47b1-ba87-6307263f219d","uiTypeLabel":"Reference"}},{"name":"subflow.agenda.remaining_vacancies","label":"Input➛Agenda➛Remaining Vacancies","reference":"","reference_display":"Remaining Vacancies","type":"integer","base_type":"integer","parent_table_name":"x_1593177_training_agenda","column_name":"remaining_vacancies","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["remaining_vacancies"]}}]</label_cache>
+        <master>true</master>
+        <name>Update Agenda Vacancies</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Agenda Vacancies">ba0a69a3c3d712101ad65375e4013163</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>912da5e7c3d712101ad65375e401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:30</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=912da5e7c3d712101ad65375e401312c"/>
+    <sys_variable_value action="DELETE" query="document_key=912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=912da5e7c3d712101ad65375e401312c"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=912da5e7c3d712101ad65375e401312c^sys_idNOT IN912da5e7c3d712101ad65375e401312d"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>912da5e7c3d712101ad65375e401312c</id>
+        <name>Update Agenda Vacancies</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:30</sys_created_on>
+        <sys_id>912da5e7c3d712101ad65375e401312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=912da5e7c3d712101ad65375e401312d"/>
+    <sys_hub_flow_input action="DELETE" query="model=912da5e7c3d712101ad65375e401312c^sys_idNOT IN512da5e7c3d712101ad65375e401312e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e7c70371-2608-47b1-ba87-6307263f219d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1593177_training_agenda</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>agenda</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Agenda</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Agenda Vacancies">912da5e7c3d712101ad65375e401312c</model>
+        <model_id>912da5e7c3d712101ad65375e401312c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1593177_training_agenda">x_1593177_training_agenda</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:30</sys_created_on>
+        <sys_id>512da5e7c3d712101ad65375e401312e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=512da5e7c3d712101ad65375e401312e"/>
+    <sys_hub_flow_output action="DELETE" query="model=912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=912da5e7c3d712101ad65375e401312c^sys_idNOT IN252da5e7c3d712101ad65375e4013141,e12da5e7c3d712101ad65375e4013142"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Agenda Vacancies">912da5e7c3d712101ad65375e401312c</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_id>252da5e7c3d712101ad65375e4013141</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <ui_id>fff1d778-dc15-4164-b91b-7426495acee4</ui_id>
+        <values>H4sIAAAAAAAA/+VX22rjMBD9laBnE+w4lzZvS7uFQi/Qlr7sdoVsy4lYRfZKci4N+fcdWbJjErebQAot+6i5SGdmzpHlH2vEEjRGZ2nf90kwOBv5fhj6/nAYxiSIonAYR37Uj5CHBJlRiNQk4hSWc8ILs17iYHAeBqMR1pIwwcQEUyEzzmdUaIhLmMo5WT278O9NXzxlPJFUoPGPFw/lRMIRmko0Xu+4DsXISUQ5hD45kDuY9Sqvl7j0WdtNM61zZx2ZTAwU30N0qalIKGBICVfUQzMiEqIzuaotkpLkXvCtYcqgwjFCJnip2Cuce+abuJRCVTG1vnqJXZusOb0kmjxqWcS6kC40nmYspsr2I6EpKbi+aNpswH2uWSZsii3bZme8mIk72w5Ub1BNBSyFAhA0N4Ua5K6M9HGaLR4qlFdMlD1xTp7FhNcrorVkUaENnjWinJoh4xnJc8OJXGZzViYDlll3wmHRTXm2gEMVm4guiQ3wLvSVdK/Aflman4lkpopb2AaSARDjwBBsR6iyQpatnOOYF6p0SCKU3QttPKRW6oITpbaVQ8vxn8Lgtn1wFWPbNJMSS5brb7DFnLriNt5BMhn4W8rFmUiYQaEaWiETOIz8LCA5Wa9VEZkGdK11s/mlNNH0+q7nhfu6OSb1lLIqa6pkddEsqq1QJ7A9203bBk5gwckEBnV8JYnB4Z9PYcdrxrbgH8KJR++SbLDlk8qkxraXDeXsC+Jonh8AoeL5vWFmJ1q9hcrRPGWUJ23fkSvj2PmO9P7P78inJDkASrCdHhOcifJRAEA/iv3++1fs+Q7PSnptuV/aiIpbPgodnXVej1bCAXAqJTzC2Z0ni6cFYnXfl5TZvesroxNAeDIBhL3TCGBdl1k3sqXn1TvQTLOKfzXxZDceKNhICDZtAjvqzODYM3ubfQGHRym4STbruXyDcyd+ML6hSO8jr4AppLrzsNUvXrBkQvX29CoqyfSC8N9tfsc4XA2qLO8DHp/9d2U7DLYSBaVgSRUMr/n6DOB5tH+HBF1rPu4KOQBL1Y5bsuw81GBaEbprBJROJ+VsmvfIdW11JO+f8MH4ab+k1bBaNVjN7Ev8s51OCC9/AbHq+DCuEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Agenda Vacancies">912da5e7c3d712101ad65375e401312c</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_id>e12da5e7c3d712101ad65375e4013142</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <ui_id>06a36bb7-971e-402b-83c6-528add9fa6db</ui_id>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K5WfS5Q0fHZPiAppEgMJJl42ZDnxTbHmOJk/Cl2V/77r2AkVIFYkXtD65vthn3N9TuMfGyI4mZN94Gl2kh2WeZbnszSdHe9nxWFeZDOeM4CMTIliNWClhrLRHNcrJp0PbDbGFZVsHhK2BMVZ12GSC9NKtr6NNRgp74XkGhSZ/7ibkpZp3M6CJvPNs9SueCQrQGLp9QDoOUC7bv2aN6WrQVkqhuBF7FzEzOTrAjPY5OFk6ZTAo0UmgEAqJg1MSc2QmG30msytdhjQwPiVkuux4l4oG4jW7NGIP3jyfurrKkBmZRzCuKRxQCFcLZhlN7hzaZ0e59WIEkyYCYeKOWnPtmOh4Kq1olGhxbJCDt2NdLW6DBMh4wZb9+EMgoDW8/TIA63q5r55uB5AngvVjyRSlE3J5Lhi1mpROOvhbAhI6Gdcs7YVaklb3axE34xQ6mQpcZF4keCZRixVwkqPO8GpsuQc44s+fMu08CS+4TbY3E2JWZszyYx5ooIzpL+dRxKIRQq0n0I/AtorwTeXWrT2FI9aQQTeTaPii4O3FFaePAlqa88n1T/S7OAkz46OqNVMKM85yP+l+E+H+PsssAPAwQLf+4t/HXB0wYvYxXbv5DIkogcOPswDx5/JA5HGpzfBv6Sfzt78c91SUq92syV7DXVU+4qVTJUCzE+Xpjmv+F44EvhLB+zY9T5/7MBi8Me5AMnNK7QGc0CNcC3QQPOZQWJychuT44fiw1ySHab97xN55T/4XgSKIeYxv6JiH36rCXvwhtSk4rRHHl9KVKjWWRMfTMm43WRvrKQZpbJpflHX0vCiMUnZOGW/IAnDVsDHu+m67u4vlqAjqMgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=912da5e7c3d712101ad65375e401312c^sys_idNOT IN692da5e7c3d712101ad65375e4013142,e92da5e7c3d712101ad65375e4013142"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>912da5e7c3d712101ad65375e401312c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.agenda.remaining_vacancies}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_id>692da5e7c3d712101ad65375e4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>36e9d0d5-db55-4d05-beae-afa9c8c6f108</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>912da5e7c3d712101ad65375e401312c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>36e9d0d5-db55-4d05-beae-afa9c8c6f108</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_id>e92da5e7c3d712101ad65375e4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>0deb44be-37ea-4343-993a-c90d6a80331c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="DELETE" query="model=912da5e7c3d712101ad65375e401312c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c^sys_idNOT INed2da5e7c3d712101ad65375e4013139"/>
+    <sys_documentation action="DELETE">
+        <element>agenda</element>
+        <help/>
+        <hint/>
+        <label>Agenda</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_id>ed2da5e7c3d712101ad65375e4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_912da5e7c3d712101ad65375e401312c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_912da5e7c3d712101ad65375e401312c"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>ba0a69a3c3d712101ad65375e4013163</sys_id>
+        <latest_snapshot>912da5e7c3d712101ad65375e401312c</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=ba0a69a3c3d712101ad65375e4013163"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=ba0a69a3c3d712101ad65375e4013163^sys_idNOT INe12da5e7c3d712101ad65375e401314d"/>
+    <sys_flow_subflow_plan action="DELETE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@3eccf928</plan>
+        <plan_id display_value="Update Agenda Vacancies">ba0a69a3c3d712101ad65375e4013163</plan_id>
+        <snapshot>912da5e7c3d712101ad65375e401312c</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e12da5e7c3d712101ad65375e401314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training">8dce12a2c3df12501ad65375e40131cd</application>
+        <file_path/>
+        <instance_id>aedcc1e2db5a3d9002022a591396193c</instance_id>
+        <instance_name>dev206749</instance_name>
+        <name>sys_hub_flow_ba0a69a3c3d712101ad65375e4013163</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=814000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;26000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;update_agenda_vacancies_on_delete_enrollment&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"subflow.agenda","label":"Input➛Agenda","reference":"x_1593177_training_agenda","reference_display":"Agenda","type":"reference","base_type":"reference","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["record"],"fff1d778-dc15-4164-b91b-7426495acee4":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e7c70371-2608-47b1-ba87-6307263f219d","uiTypeLabel":"Reference"}},{"name":"subflow.agenda.remaining_vacancies","label":"Input➛Agenda➛Remaining Vacancies","reference":"","reference_display":"Remaining Vacancies","type":"integer","base_type":"integer","parent_table_name":"x_1593177_training_agenda","column_name":"remaining_vacancies","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["remaining_vacancies"]}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;912da5e7c3d712101ad65375e401312c&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Update Agenda Vacancies&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:44:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ba0a69a3c3d712101ad65375e4013163&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Agenda Vacancies&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training" source="x_1593177_training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_ba0a69a3c3d712101ad65375e4013163&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN7a0a69a3c3d712101ad65375e4013164"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ba0a69a3c3d712101ad65375e4013163&lt;/id&gt;&lt;name&gt;Update Agenda Vacancies on Delete Enrollment&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:44:56&lt;/sys_created_on&gt;&lt;sys_id&gt;7a0a69a3c3d712101ad65375e4013164&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:44:56&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7a0a69a3c3d712101ad65375e4013164"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=ba0a69a3c3d712101ad65375e4013163^sys_idNOT INd1eb2127c3d712101ad65375e4013138"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e7c70371-2608-47b1-ba87-6307263f219d&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;x_1593177_training_agenda&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;agenda&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Agenda&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Update Agenda Vacancies"&gt;ba0a69a3c3d712101ad65375e4013163&lt;/model&gt;&lt;model_id&gt;ba0a69a3c3d712101ad65375e4013163&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1593177_training_agenda"&gt;x_1593177_training_agenda&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:53:02&lt;/sys_created_on&gt;&lt;sys_id&gt;d1eb2127c3d712101ad65375e4013138&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:53:02&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d1eb2127c3d712101ad65375e4013138"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN1deb6d67c3d712101ad65375e401319c,91eb6d67c3d712101ad65375e401319b"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Agenda Vacancies"&gt;ba0a69a3c3d712101ad65375e4013163&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:53:02&lt;/sys_created_on&gt;&lt;sys_id&gt;1deb6d67c3d712101ad65375e401319c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:53:02&lt;/sys_updated_on&gt;&lt;ui_id&gt;06a36bb7-971e-402b-83c6-528add9fa6db&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1Wy27bMBD8FUNnR5CsPJ1TgCBAD02AtMglDQiKXDlEKVLlw4lr6N+7lCjFedQ1ggBFgfrG5e7OzO6A1u06ETyZJ/vAs/wkP2RFXhSzLJsd7+flYVHmM15QgDyZJorWgJkGmDYcz0sqfQis19aXldQPKV2A4rRt8ZIL20i6uok5GGH3QnIDKpnf3k2Thhps58Ak8/WLK7dqgEhagsTCc818DcpNPp1jj12pDtXXA9eX3AMGnnnsTkQI4lXgk2fTBB4dSgGEq6i0ME1qisqcNqtk7ozHgAHKr5RcjRn3QrleaU0frfiJ/fezkFcBSmNxCuORxAkNw9GCwVXjhFZ9xNFSDpPT0tfqspcQZgsV9dJtzNZb7AdNoBxI9AyrL/f64XrAuxCqUxfZSs2oHE/UOSNK78CGdYCEbig1bRqhFqQxeim6YqRSpwuJhzQsHDGtWKiUssA7xQHR9ALj5134hhoRRHzGNljcduLJDx9wexmRMOk0d4JJtyhMtcyIxp1h4yVEmu00erU82GYAdvK0742eT359JPnBSZEfHRFnqFBBYW/c17Y9G+LvM+/XAD+57OF3pf6s+DdSon2fxaJ7Dz7Mvcd/yb2R0T9m3z+ZNpttfbU2Nt351G4Y1kAdfbqkjComwH7zWVbwiu/1kMBfe3fHqnc6G2rEcjDp0aY7axwaXAiQ3L4herB2BCDLCDA+zh/m7/ww637/3+gPeaN7QX0sMHzDfyG8rQhrnDdqUnHS8YzfFUSoxjsbPy/Ssd1kb8wkOSFS6+/EN6T/k7cp0165UxRh6RL4uIm2be9+AZL60e/2CAAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Agenda Vacancies"&gt;ba0a69a3c3d712101ad65375e4013163&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:53:02&lt;/sys_created_on&gt;&lt;sys_id&gt;91eb6d67c3d712101ad65375e401319b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:26&lt;/sys_updated_on&gt;&lt;ui_id&gt;fff1d778-dc15-4164-b91b-7426495acee4&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VXS0/jMBD+K1XOUZU0fUBvK1gkDoAEiAsLlpM4rbWunbWdPqj633ccJ2loA7Td7i4cPQ/PNzPfTJzHpUNjZ+icJF3Pw37vZOB5QeB5/X4QYT8Mg34UemE3dFyH4wkBS41DRuA4xSwz5znye6eBPxggLTHllI8Q4VIwNiFcg11MVcrw4qEw/17XRWPKYkm4M3x8cp0USwihiXSGyw2VXqQEMRwSBlfcGwStawPH3Rn9K+ftbEyA8oi4vVrI2GDxXIfMNeExgVAJZoq4zgTzGGshF5VEEhzfcLYWjCmkOHQcYzxX9AWuP/GMXUIgrYhYXXVERZ2sOBoLGpGbVFPBrcQCtUrBsgm/tgmYCpMEZ0yXFQZJpuA+khrMBkSBKLkbi9ltGfCC8jy9QslEhFl1wlpLGmaaKNMLwohpGJrgNDX9TaWY0twZsEzaIwaHdsLEDIIqOuJtHBngbSgRbl+A/DwXP2BJTRZXcA04AyDKoNvIFl2JTOZVmaKIZSpXSMyVvctZ5bVCvzKD0mZd5IdsicBARZKm+hs4TEmRysrdieA9b02JSPCYmpiqxnI8gmD4RwbO8XKpstCk27bS1epZaazJ5XXHDbYZv4/rYQNxVke8a7aNzk0lKEbjlawYDf9oowFw/9NwaJl9vtn4iO024Q8oHw3eJUFv3W8lpEa2cjXOb1P5YIZeUMLiVyt7B3Cl840hWytcvIW3IGhiYmzs7s6X392fkp4AKEa23pQzyvNPJwA9Dm+995fX6QYP8vavWZvLsIoaFnFLi9bL4Vs272vJ3x1Alo53gKh1b1E2AC/3a3l9Qd3gaNQNOvtRF4jzuKzQV1VrKHD5QjKtK+1fjD3etAd21Rz81VNF/bPDYvr7xuyYmBuzGew1nHVmWc35GwQ78vvrjWFz/+Z0j8G1iIfssKIZjUdEr6OXVrHQM8x+NukLdlUzlKf3x2+57ruz1/fXcwYzgCRR0Kr6Y86Hx8b2evDbVnzYdrjkmozy4u0KsfS8wvPWbYWxEXixImgVo+B094jvr3/xeSsL3zg9Zf2/xM/LoRR++g1JTiGGcQ8AAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN91eb6d67c3d712101ad65375e401319f,d9eb6d67c3d712101ad65375e401319e"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;ba0a69a3c3d712101ad65375e4013163&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;1&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;36e9d0d5-db55-4d05-beae-afa9c8c6f108&lt;/source_ui_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;91eb6d67c3d712101ad65375e401319f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:53:03&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="add"&gt;50980bfa23a220103a3339e1d7bf6510&lt;/transform_definition_id&gt;&lt;ui_id&gt;0deb44be-37ea-4343-993a-c90d6a80331c&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;ba0a69a3c3d712101ad65375e4013163&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{subflow.agenda.remaining_vacancies}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d9eb6d67c3d712101ad65375e401319e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:53:03&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;36e9d0d5-db55-4d05-beae-afa9c8c6f108&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163^sys_idNOT IN99eb2127c3d712101ad65375e401313c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;agenda&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Agenda&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:53:02&lt;/sys_created_on&gt;&lt;sys_id&gt;99eb2127c3d712101ad65375e401313c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Training" source="x_1593177_training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:53:02&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;26000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;update_agenda_vacancies&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"subflow.agenda","label":"Input➛Agenda","reference":"x_1593177_training_agenda","reference_display":"Agenda","type":"reference","base_type":"reference","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["record"],"fff1d778-dc15-4164-b91b-7426495acee4":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e7c70371-2608-47b1-ba87-6307263f219d","uiTypeLabel":"Reference"}},{"name":"subflow.agenda.remaining_vacancies","label":"Input➛Agenda➛Remaining Vacancies","reference":"","reference_display":"Remaining Vacancies","type":"integer","base_type":"integer","parent_table_name":"x_1593177_training_agenda","column_name":"remaining_vacancies","usedInstances":{"06a36bb7-971e-402b-83c6-528add9fa6db":["remaining_vacancies"]}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Update Agenda Vacancies&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Update Agenda Vacancies"&gt;ba0a69a3c3d712101ad65375e4013163&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;912da5e7c3d712101ad65375e401312c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:30&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=912da5e7c3d712101ad65375e401312c^sys_idNOT IN912da5e7c3d712101ad65375e401312d"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;912da5e7c3d712101ad65375e401312c&lt;/id&gt;&lt;name&gt;Update Agenda Vacancies&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:30&lt;/sys_created_on&gt;&lt;sys_id&gt;912da5e7c3d712101ad65375e401312d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:30&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=912da5e7c3d712101ad65375e401312d"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=912da5e7c3d712101ad65375e401312c^sys_idNOT IN512da5e7c3d712101ad65375e401312e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e7c70371-2608-47b1-ba87-6307263f219d&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;x_1593177_training_agenda&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;agenda&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Agenda&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Update Agenda Vacancies"&gt;912da5e7c3d712101ad65375e401312c&lt;/model&gt;&lt;model_id&gt;912da5e7c3d712101ad65375e401312c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1593177_training_agenda"&gt;x_1593177_training_agenda&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:30&lt;/sys_created_on&gt;&lt;sys_id&gt;512da5e7c3d712101ad65375e401312e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=512da5e7c3d712101ad65375e401312e"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=912da5e7c3d712101ad65375e401312c^sys_idNOT IN252da5e7c3d712101ad65375e4013141,e12da5e7c3d712101ad65375e4013142"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Update Agenda Vacancies"&gt;912da5e7c3d712101ad65375e401312c&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:31&lt;/sys_created_on&gt;&lt;sys_id&gt;252da5e7c3d712101ad65375e4013141&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;ui_id&gt;fff1d778-dc15-4164-b91b-7426495acee4&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+VX22rjMBD9laBnE+w4lzZvS7uFQi/Qlr7sdoVsy4lYRfZKci4N+fcdWbJjErebQAot+6i5SGdmzpHlH2vEEjRGZ2nf90kwOBv5fhj6/nAYxiSIonAYR37Uj5CHBJlRiNQk4hSWc8ILs17iYHAeBqMR1pIwwcQEUyEzzmdUaIhLmMo5WT278O9NXzxlPJFUoPGPFw/lRMIRmko0Xu+4DsXISUQ5hD45kDuY9Sqvl7j0WdtNM61zZx2ZTAwU30N0qalIKGBICVfUQzMiEqIzuaotkpLkXvCtYcqgwjFCJnip2Cuce+abuJRCVTG1vnqJXZusOb0kmjxqWcS6kC40nmYspsr2I6EpKbi+aNpswH2uWSZsii3bZme8mIk72w5Ub1BNBSyFAhA0N4Ua5K6M9HGaLR4qlFdMlD1xTp7FhNcrorVkUaENnjWinJoh4xnJc8OJXGZzViYDlll3wmHRTXm2gEMVm4guiQ3wLvSVdK/Aflman4lkpopb2AaSARDjwBBsR6iyQpatnOOYF6p0SCKU3QttPKRW6oITpbaVQ8vxn8Lgtn1wFWPbNJMSS5brb7DFnLriNt5BMhn4W8rFmUiYQaEaWiETOIz8LCA5Wa9VEZkGdK11s/mlNNH0+q7nhfu6OSb1lLIqa6pkddEsqq1QJ7A9203bBk5gwckEBnV8JYnB4Z9PYcdrxrbgH8KJR++SbLDlk8qkxraXDeXsC+Jonh8AoeL5vWFmJ1q9hcrRPGWUJ23fkSvj2PmO9P7P78inJDkASrCdHhOcifJRAEA/iv3++1fs+Q7PSnptuV/aiIpbPgodnXVej1bCAXAqJTzC2Z0ni6cFYnXfl5TZvesroxNAeDIBhL3TCGBdl1k3sqXn1TvQTLOKfzXxZDceKNhICDZtAjvqzODYM3ubfQGHRym4STbruXyDcyd+ML6hSO8jr4AppLrzsNUvXrBkQvX29CoqyfSC8N9tfsc4XA2qLO8DHp/9d2U7DLYSBaVgSRUMr/n6DOB5tH+HBF1rPu4KOQBL1Y5bsuw81GBaEbprBJROJ+VsmvfIdW11JO+f8MH4ab+k1bBaNVjN7Ev8s51OCC9/AbHq+DCuEAAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Update Agenda Vacancies"&gt;912da5e7c3d712101ad65375e401312c&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:31&lt;/sys_created_on&gt;&lt;sys_id&gt;e12da5e7c3d712101ad65375e4013142&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;ui_id&gt;06a36bb7-971e-402b-83c6-528add9fa6db&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+VWXU/bMBT9K5WfS5Q0fHZPiAppEgMJJl42ZDnxTbHmOJk/Cl2V/77r2AkVIFYkXtD65vthn3N9TuMfGyI4mZN94Gl2kh2WeZbnszSdHe9nxWFeZDOeM4CMTIliNWClhrLRHNcrJp0PbDbGFZVsHhK2BMVZ12GSC9NKtr6NNRgp74XkGhSZ/7ibkpZp3M6CJvPNs9SueCQrQGLp9QDoOUC7bv2aN6WrQVkqhuBF7FzEzOTrAjPY5OFk6ZTAo0UmgEAqJg1MSc2QmG30msytdhjQwPiVkuux4l4oG4jW7NGIP3jyfurrKkBmZRzCuKRxQCFcLZhlN7hzaZ0e59WIEkyYCYeKOWnPtmOh4Kq1olGhxbJCDt2NdLW6DBMh4wZb9+EMgoDW8/TIA63q5r55uB5AngvVjyRSlE3J5Lhi1mpROOvhbAhI6Gdcs7YVaklb3axE34xQ6mQpcZF4keCZRixVwkqPO8GpsuQc44s+fMu08CS+4TbY3E2JWZszyYx5ooIzpL+dRxKIRQq0n0I/AtorwTeXWrT2FI9aQQTeTaPii4O3FFaePAlqa88n1T/S7OAkz46OqNVMKM85yP+l+E+H+PsssAPAwQLf+4t/HXB0wYvYxXbv5DIkogcOPswDx5/JA5HGpzfBv6Sfzt78c91SUq92syV7DXVU+4qVTJUCzE+Xpjmv+F44EvhLB+zY9T5/7MBi8Me5AMnNK7QGc0CNcC3QQPOZQWJychuT44fiw1ySHab97xN55T/4XgSKIeYxv6JiH36rCXvwhtSk4rRHHl9KVKjWWRMfTMm43WRvrKQZpbJpflHX0vCiMUnZOGW/IAnDVsDHu+m67u4vlqAjqMgJAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=912da5e7c3d712101ad65375e401312c^sys_idNOT IN692da5e7c3d712101ad65375e4013142,e92da5e7c3d712101ad65375e4013142"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;912da5e7c3d712101ad65375e401312c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{subflow.agenda.remaining_vacancies}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:31&lt;/sys_created_on&gt;&lt;sys_id&gt;692da5e7c3d712101ad65375e4013142&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;36e9d0d5-db55-4d05-beae-afa9c8c6f108&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;912da5e7c3d712101ad65375e401312c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;1&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;36e9d0d5-db55-4d05-beae-afa9c8c6f108&lt;/source_ui_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:31&lt;/sys_created_on&gt;&lt;sys_id&gt;e92da5e7c3d712101ad65375e4013142&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="add"&gt;50980bfa23a220103a3339e1d7bf6510&lt;/transform_definition_id&gt;&lt;ui_id&gt;0deb44be-37ea-4343-993a-c90d6a80331c&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c^sys_idNOT INed2da5e7c3d712101ad65375e4013139"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;agenda&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Agenda&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:31&lt;/sys_created_on&gt;&lt;sys_id&gt;ed2da5e7c3d712101ad65375e4013139&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Training" source="x_1593177_training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training"&gt;8dce12a2c3df12501ad65375e40131cd&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_912da5e7c3d712101ad65375e401312c"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;ba0a69a3c3d712101ad65375e4013163&lt;/sys_id&gt;&lt;latest_snapshot&gt;912da5e7c3d712101ad65375e401312c&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=ba0a69a3c3d712101ad65375e4013163"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=ba0a69a3c3d712101ad65375e4013163^sys_idNOT INe12da5e7c3d712101ad65375e401314d"/&gt;&lt;sys_flow_subflow_plan action="INSERT_OR_UPDATE"&gt;&lt;plan&gt;com.snc.process_flow.engine.ProcessPlan@3eccf928&lt;/plan&gt;&lt;plan_id display_value="Update Agenda Vacancies"&gt;ba0a69a3c3d712101ad65375e4013163&lt;/plan_id&gt;&lt;snapshot&gt;912da5e7c3d712101ad65375e401312c&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 18:58:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e12da5e7c3d712101ad65375e401314d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:58:31&lt;/sys_updated_on&gt;&lt;/sys_flow_subflow_plan&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1930375464</payload_hash>
+        <record_name>Update Agenda Vacancies</record_name>
+        <reverted_from/>
+        <source>0593eaa6c3df12501ad65375e4013109</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:58:31</sys_created_on>
+        <sys_id>e92da5e7c3d712101ad65375e4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b89442c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:58:31</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>612da5e775d7121017844083e8c15557</update_guid>
+        <update_guid_history>612da5e775d7121017844083e8c15557:-1930375464,512da5e72ad712102b7ffcf97d1c8c03:506453337,ec2d65e71ad7121082313342738b0baa:1087153113,11eb6d67e4d7121065655832b6070ba8:460509341,3e0a69a3c3d712108325b9e35ae5c968:-1256308108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 20:47:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>3e032c3d498948d99387bc2cb95db4b1</sys_id>
+        <sys_metadata>ba0a69a3c3d712101ad65375e4013163</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Agenda Vacancies</sys_name>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_scope_delete display_value="">46aee6d4cdb542319c3c92bf64538639</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_ba0a69a3c3d712101ad65375e4013163</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_ba0a69a3c3d712101ad65375e4013163">e92da5e7c3d712101ad65375e4013157</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 20:47:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
