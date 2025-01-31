@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Training System - Administration">51c62dffc35b52101ad65375e401313d</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 13:31:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1eba1f7c39b52101ad65375e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>51c62dffc35b52101ad65375e401313d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name>par_dashboard_permission_c1eba1f7c39b52101ad65375e4013168</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 13:31:30</sys_updated_on>
+        <user display_value="Training Admin ">44cb8af6c31392501ad65375e40131de</user>
+    </par_dashboard_permission>
+</record_update>

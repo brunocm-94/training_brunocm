@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1593177_training.TrainingSystemUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TrainingSystemUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TrainingSystemUtils = Class.create();
+TrainingSystemUtils.prototype = {
+    initialize: function() {},
+
+    refQualAgendas: function() {
+        var agendasNotToBeShown = [];
+        var trainingCount = {};
+
+        var grEnrollment = new GlideRecord("x_1593177_training_enrollment");
+        grEnrollment.addEncodedQuery("agenda.instructorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORenrolled_userDYNAMIC90d1921e5f510100a9ad2572f2b477fe");
+        grEnrollment.query();
+        
+        while (grEnrollment.next()) {
+            var agendaId = grEnrollment.agenda.sys_id.toString();
+            agendasNotToBeShown.push(agendaId);
+
+            var trainingId = grEnrollment.agenda.training.toString();
+            if (trainingId) {
+                if (!trainingCount[trainingId]) {
+                    trainingCount[trainingId] = 0;
+                }
+                trainingCount[trainingId]++;
+            }
+        }
+
+        var agendasToBeShown = [];
+        var grAgendas = new GlideRecord("x_1593177_training_agenda");
+        grAgendas.addEncodedQuery("date>javascript:gs.endOfToday()^remaining_vacancies>0^ORDERBYASCdate");
+        grAgendas.query();
+
+        while (grAgendas.next()) {
+            var trainId = grAgendas.training.toString();
+
+            if (trainingCount[trainId] && trainingCount[trainId] >= 3) {
+                continue;
+            }
+
+            if (agendasNotToBeShown.indexOf(grAgendas.getUniqueValue()) == -1) {
+                agendasToBeShown.push(grAgendas.getUniqueValue());
+            }
+        }
+
+        return "sys_idIN" + agendasToBeShown.join(",");
+    },
+
+    type: 'TrainingSystemUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 14:03:07</sys_created_on>
+        <sys_id>d26d2d7bc39b52101ad65375e40131ca</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TrainingSystemUtils</sys_name>
+        <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+        <sys_update_name>sys_script_include_d26d2d7bc39b52101ad65375e40131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 15:49:01</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d26d2d7bc39b52101ad65375e40131ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 14:03:07</sys_created_on>
+        <sys_id>c823b533c3db52101ad65375e401318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 14:03:07</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
