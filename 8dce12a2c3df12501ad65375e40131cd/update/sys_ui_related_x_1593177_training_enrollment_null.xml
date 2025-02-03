@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1593177_training_enrollment" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Enrollment - Default view" name="x_1593177_training_enrollment" related_list="NULL" sys_domain="global" view="Default view">fdca74b0c3a396101ad65375e40131c8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 12:30:51</sys_created_on>
+            <sys_id>fdca7cb0c3a396101ad65375e4013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 12:30:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Enrollment - Default view</calculated_name>
+            <filter/>
+            <name>x_1593177_training_enrollment</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 12:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdca74b0c3a396101ad65375e40131c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Enrollment - Default view</sys_name>
+            <sys_package display_value="Training" source="x_1593177_training">8dce12a2c3df12501ad65375e40131cd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training">8dce12a2c3df12501ad65375e40131cd</sys_scope>
+            <sys_update_name>sys_ui_related_x_1593177_training_enrollment_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 12:30:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
